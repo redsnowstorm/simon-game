@@ -14,6 +14,15 @@ $(document).keypress(function() {
   }
 });
 
+//Start game on phone
+$(document).click(function() {
+  if (!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+});
+
 //Game pattern generator
 function nextSequence() {
   userClickedPattern = [];
