@@ -17,7 +17,7 @@ function startGame() {
   startGame();
 });
 //Start game on phone
-$(".level-title").click(function() {
+$("#level-title").click(function() {
 startGame();
 });
 
