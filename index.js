@@ -4,23 +4,21 @@ let gamePattern = [];
 let userClickedPattern = [];
 
 //Start the game
-let started = false;
-let level = 0;
-$(document).keypress(function() {
-  if (!started) {
+function startGame() {
+    if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
+    level=0;
   }
+}
+//Start game on computer
+  $(document).keydown(function() {
+  startGame();
 });
-
 //Start game on phone
-$(document).click(function() {
-  if (!started) {
-    $("#level-title").text("Level " + level);
-    nextSequence();
-    started = true;
-  }
+$("h1").click(function() {
+startGame();
 });
 
 //Game pattern generator
