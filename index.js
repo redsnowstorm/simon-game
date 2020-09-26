@@ -5,11 +5,10 @@ let userClickedPattern = [];
 
 //Start the game
 function startGame() {
-    if (!started) {
-    $("#level-title").text("Level " + level);
-    nextSequence();
+  if (!started) {
     started = true;
-    level=0;
+    level = 0;
+    nextSequence();
   }
 }
 //Start game on computer
