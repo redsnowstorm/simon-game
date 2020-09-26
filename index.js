@@ -2,6 +2,7 @@
 let buttonColours = ["red", "blue", "green", "yellow"];
 let gamePattern = [];
 let userClickedPattern = [];
+let started = false;
 
 //Start the game
 function startGame() {
