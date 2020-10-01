@@ -107,21 +107,3 @@ body {
 
 }
 
-/* @media(max-width:842px){
-  .btn {
-    margin: 1vw;
-    max-width: 33vw;
-    max-height: 33vw;
-  }
-  .container {
-    margin:auto;
-    width: 90%;
-    height: 90%;
-  }
-  #level-title {
-  visibility: hidden;
-  font-size: 0;
-  margin:0;
-  }
-}
- */
