@@ -76,6 +76,7 @@ body {
     margin: 1vw;
     max-width: 33vw;
     max-height: 33vw;
+    touch-action: manipulation;
   }
   #level-title {
   visibility: hidden;
